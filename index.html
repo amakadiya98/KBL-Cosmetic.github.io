@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link href="./assets/css/tailwind.min.css" rel="stylesheet" />
+  <link href="./assets/css/style.css" rel="stylesheet" />
+ 
+</head>
+<body>
+  <nav class="header-part">
+      <div class="container mx-auto">
+          <div class="flex">
+              <div class="flex justify-between items-center w-full">
+                  <!-- Logo -->
+                  <div>
+                      <a href="#" class="flex items-center">
+                          <img src="./assets/images/Logo.svg" alt="Logo">
+                      </a>
+                  </div>
+                  <!-- Primary Navbar items -->
+                  <div class="hidden md:flex items-center xl:space-x-8 lg:space-x-5 md:space-x-2">
+                      <a href="#" class="nav-link text-primary">Contract Manufacturing</a>
+                      <a href="#" class="nav-link text-primary">Formulation</a>
+                      <a href="#" class="nav-link text-primary">Private Label</a>
+                      <a href="#" class="nav-link text-primary">R&D</a>
+                      <a href="#" class="nav-link text-primary">Contact</a>
+                  </div>
+                      <!-- Secondary Navbar items -->
+                  <div class="hidden md:flex items-center space-x-3 ">
+                    <a href="" class="primary-btn lignt-btn btn-small">Get Started</a>
+                  </div>
+              </div>
+          
+              <!-- Mobile menu button -->
+              <div class="md:hidden flex items-center">
+                  <button class="outline-none mobile-menu-button">
+                      <svg class=" w-6 h-6 text-gray-500 hover:text-primary " x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                          <path d="M4 6h16M4 12h16M4 18h16"></path>
+                      </svg>
+                  </button>
+              </div>
+          </div>
+      </div>
+      <!-- mobile menu -->
+      <div class="hidden mobile-menu mt-6">
+          <ul class="">
+              <li ><a href="index.html" class="block text-sm text-center px-2 py-2 text-white bg-primary font-semibold">Contract Manufacturing</a></li>
+              <li class="active"><a href="#services" class="block text-sm text-center px-2 py-2 hover:bg-primary transition duration-300">Formulation</a></li>
+              <li><a href="#about" class="block text-sm text-center px-2 py-2 hover:bg-primary transition duration-300">Private Label</a></li>
+              <li><a href="#R&D" class="block text-sm text-center px-2 py-2 hover:bg-primary transition duration-300">R&D</a></li>
+              <li><a href="#contact" class="block text-sm text-center px-2 py-2 hover:bg-primary transition duration-300">Contact</a></li>
+          </ul>
+          <div class="flex items-center justify-center space-x-3 ">
+            <a href="" class="primary-btn lignt-btn btn-small">Get Started</a>
+          </div>
+      </div>
+  </nav>
+  <section class="banner-section">
+    <div class="container mx-auto">
+      <div class="grid md:grid-cols-2 grid-cols-1 lg:gap-[60px] md:gap-[20px]">
+        <div class="banner-contenmt-part">
+            <h2 class="text-primary">We're Creating the future of consumer products</h2>
+            <p>Contract manufacturing, filling, and formulation for personal care, beauty, and household products.</p>
+            <div class="hidden md:flex items-center space-x-3 ">
+              <a href="" class="primary-btn">Get Started Now</a>
+            </div>
+        </div>
+        <div class="slider-part">
+          <div class="slider-container max-w-full mx-auto bg-white shadow-lg">
+            <div class="slider-content">
+                <div class="slider-item">
+                    <img src="./assets/images/Video-1.png" alt="Slide 1" class="w-full">
+                </div>
+                <div class="slider-item">
+                  <img src="./assets/images/Video-1.png" alt="Slide 1" class="w-full">
+                </div>
+                <div class="slider-item">
+                  <img src="./assets/images/Video-1.png" alt="Slide 1" class="w-full">
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="facility-section">
+    <div class="container mx-auto">
+      <div class="facility-content">
+        <h2>State of the Art USA Facility</h2>
+        <p>We operate 18 stainless steel, steam heated tanks with 11 filling lines of various filling capabilities. We offer full labeling services and have a trained, on-site staff that can fabricate custom tooling for your project needs.</p>
+      </div>
+    </div>
+  </section>
+  <section class="feature-scetion">
+    <div class="container mx-auto">
+      <div class="grid md:grid-cols-2 sm:grid-cols-1 xl:gap-[98px] lg:gap-[50px] md:gap-[30px]">
+        <div class="card">
+          <div class="image-part">
+            <img src="./assets/images/card-1.png" alt="card" class="w-full"/>
+          </div>
+          <div class="text-part">
+            <h6>Contract Manufacturing</h6>
+            <p>Our 78,000 square ft. state-of-the-art manufacturing facility in Corona, CA has been creating products for the top global brands for over 36 years. Our facility is in compliance with the US FDA, and is Organic, GMP and ISO 9001 certified.</p>
+          </div>
+          <button class="learn-more-button">Learn More <img src="./assets/images/right-arrow.svg" alt="arrow" class="ml-2" /></button>
+        </div>
+        <div class="card">
+          <div class="image-part">
+            <img src="./assets/images/card-1.png" alt="card" class="w-full"/>
+          </div>
+          <div class="text-part">
+            <h6>Custom Formulation</h6>
+            <p>Our 78,000 square ft. state-of-the-art manufacturing facility in Corona, CA has been creating products for the top global brands for over 36 years. Our facility is in compliance with the US FDA, and is Organic, GMP and ISO 9001 certified.</p>
+          </div>
+          <button class="learn-more-button">Learn More <img src="./assets/images/right-arrow.svg" alt="arrow" class="ml-2" /></button>
+        </div>
+        <div class="card">
+          <div class="image-part">
+            <img src="./assets/images/card-1.png" alt="card" class="w-full"/>
+          </div>
+          <div class="text-part">
+            <h6>Private Label</h6>
+            <p>With over 50 years of research and development, we offer more than 2000 meticulously developed, world-class formulas for private label skincare and household products.</p>
+          </div>
+          <button class="learn-more-button">Learn More <img src="./assets/images/right-arrow.svg" alt="arrow" class="ml-2" /></button>
+        </div>
+        <div class="card">
+          <div class="image-part">
+            <img src="./assets/images/card-1.png" alt="card" class="w-full"/>
+          </div>
+          <div class="text-part">
+            <h6>R&D Lab</h6>
+            <p>We offer custom formula development, advanced ingredient research and concept development, as well as accelerated and long term OTC stability testing.</p>
+          </div>
+          <button class="learn-more-button">Learn More <img src="./assets/images/right-arrow.svg" alt="arrow" class="ml-2" /></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="global-company-section">
+    <div class="container mx-auto">
+      <div class="title-part">
+        <h6 class="text-center">Trusted By <span>Global Companies</span></h6>
+        <p class="text-center">We work with global leaders to manufacture products that people remember.</p>
+      </div>
+      <div class="logo-grid">
+        <div class="logo">
+          <img src="./assets/images/logo-1.svg" alt="logo" />
+        </div>
+        <div class="logo">
+          <img src="./assets/images/logo-2.svg" alt="logo" />
+        </div>
+        <div class="logo">
+          <img src="./assets/images/logo-3.svg" alt="logo" />
+        </div>
+        <div class="logo">
+          <img src="./assets/images/logo-4.svg" alt="logo" />
+        </div>
+        <div class="logo">
+          <img src="./assets/images/logo-5.svg" alt="logo" />
+        </div>
+        <div class="logo">
+          <img src="./assets/images/logo-6.svg" alt="logo" />
+        </div>
+        <div class="logo">
+          <img src="./assets/images/logo-7.svg" alt="logo" />
+        </div>
+        <div class="logo">
+          <img src="./assets/images/logo-8.svg" alt="logo" />
+        </div>
+        <div class="logo">
+          <img src="./assets/images/logo-9.svg" alt="logo" />
+        </div>
+        <div class="logo">
+          <img src="./assets/images/logo-10.svg" alt="logo" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-part">
+    <div class="container mx-auto">
+      <div class="grid md:grid-cols-2 sm:grid-cols-1">
+        <div class="footer-link">
+          <div class="logo-part">
+            <img src="./assets/images/Logo.svg" alt="logo" />
+            <p class="mt-2">©2024 Arminak Solutions LLC  dba KBL Cosmetics</p>
+          </div>
+          <div class="link-part md:mt-10 mt-4">
+            <ul>
+              <li>
+                <a href="#" class="hover:underline">Home</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Contract Manufacturing</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Custom Formulation</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Private Label</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Research & Development</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Contact</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Terms and Conditions</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Terms & Conditions of Sale</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Terms & Conditions for Suppliers</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-social md:mt-0 mt-10">
+          <div class="social-link-part flex gap-2">
+            <a href="#"><img src="./assets/images/facebook.svg" alt="icon"></a>
+            <a href="#"><img src="./assets/images/x-box.svg" alt="icon"></a>
+            <a href="#"><img src="./assets/images/Pinterest.svg" alt="icon"></a>
+            <a href="#"><img src="./assets/images/Instagram.svg" alt="icon"></a>
+            <a href="#"><img src="./assets/images/vimo.svg" alt="icon"></a>
+          </div>
+          <div class="badge-part md:mt-20 mt-4">
+            <div class="image-block">
+              <img src="./assets/images/Women-Owned-Badge.svg" alt="badge" />
+            </div>
+            <p class="mt-4 max-w-80">Certifying women-owned businesses is the foundation of WBENC’s mission, a legacy that is carried on for over 20 years.</p>
+            <p class="mt-4 max-w-80">WBENC Certification is nationally recognized, and preferred by more than 1,000 Corporate and Government Members.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/Js/tailwind.js"></script>
+  <script src="./assets/Js/index.js"></script>
+</body>
+</html>
