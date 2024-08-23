@@ -35,7 +35,8 @@
 
 @font-face {
   font-family: 'Bodoni72-OldStyle';
-  src: url('../fonts/bodoni-72-oldstyle-book.ttf');
+  src: url('../fonts/Bodoni_72_OS_Font_1.ttf');
+  /* src: url('../fonts/Bodoni-72-Smallcaps-Book.ttf'); */
 }
 
 body {
@@ -54,7 +55,6 @@ body {
 }
 
 .header-part .nav-link:hover {
-  color: #FB923C;
   text-decoration: underline;
 }
 
@@ -150,6 +150,16 @@ body {
   background-image: url('../images/HologramBG.svg');
   background-size: cover;
 }
+.feature-scetion .card .image-part{
+  width: 100%;
+  height: 400px;
+}
+.feature-scetion .card .image-part video, .feature-scetion .card .image-part img{
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .feature-scetion .card {
   display: flex;
@@ -185,12 +195,6 @@ body {
   align-items: center;
   font-weight: 700;
   width: fit-content;
-}
-.learn-more-button:hover{
-  text-decoration: underline;
-}
-
-.learn-more-button img {
   -webkit-transition: transform 0.3s ease-out;
   -moz-transition: transform 0.3s ease-out;
   -ms-transition: transform 0.3s ease-out;
@@ -198,7 +202,7 @@ body {
   transition: transform 0.3s ease-out;
 }
 
-.learn-more-button:hover img {
+.learn-more-button:hover{
   -webkit-transform: translateX(4px);
   -moz-transform: translateX(4px);
   -ms-transform: translateX(4px);
@@ -233,20 +237,29 @@ body {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 40px;
-  box-shadow: 0px 0px 50px 0 #6366F11A;
+  box-shadow: 0px 0px 50px 0 #6366f14d;
 }
 
 .global-company-section .logo-grid .logo {
-  width: 19.8%;
-  margin-bottom: 0.2%;
+  width: 20%;
+  /* margin-bottom: 0.1%; */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
   border-radius: 2px;
   background-color: #fff;
-  /* border-bottom: 1px solid #cccccc30;
-  border-right: 1px solid #cccccc30; */
+  border-bottom: 1px solid #cccccc4d;
+  border-right: 1px solid #cccccc4d;
+}
+.global-company-section .logo-grid .logo:nth-child(n+6){
+  border-bottom: 0;
+}
+.global-company-section .logo-grid .logo img{
+  transition: all 0.3s;
+}
+.global-company-section .logo-grid .logo:hover img{
+  transform: scale(1.1);
 }
 
 .footer-part {
@@ -258,6 +271,12 @@ body {
   line-height: 16.94px;
   text-align: left;
 }
+.footer-part .link-part{
+  margin-top: 26px;
+}
+.footer-part .badge-part{
+  margin-top: 56px;
+}
 
 .footer-part .social-link-part a {
   transition: transform 0.5s;
@@ -266,20 +285,27 @@ body {
 .footer-part .social-link-part a:hover {
   transform: scale(1.2);
 }
-
+.footer-part .badge-part .image-block:hover{
+  opacity: 0.8;
+}
 .slider-container {
   overflow: hidden;
   position: relative;
 }
 
 .slider-content {
-  display: flex;
   transition: transform 0.5s ease-in-out;
 }
 
 .slider-item {
   min-width: 100%;
-  border-radius: 20px;
+  border-radius: 16px;
+}
+.slider-item video{
+  border-radius: 16px;
+  max-width: 80%;
+  margin: auto;
+  box-shadow: 0px 0px 50px 0 #6366f169;
 }
 
 .slider-item img {
@@ -289,7 +315,9 @@ body {
 .container{
   max-width: 80% !important;
 }
-
+.facility-content .image-part{
+  display: none;
+}
 /* responsive design */
 
 @media screen and (max-width: 1440px) {
@@ -299,6 +327,10 @@ body {
   .facility-section::before{
     width: 40%;
     right: 20%;
+  }
+  .feature-scetion .card .image-part{
+    width: 100%;
+    height: 300px;
   }
 }
 @media screen and (max-width: 1366px) {
@@ -344,14 +376,65 @@ body {
     width: 100%;
     right: 0;
   }
-  .facility-content {
-    max-width: 80%;
-  }
+  
   .banner-section{
     padding: 60px 0;
   }
+  
+}
+@media screen and (max-width: 768px) {
+  .banner-section .slider-part{
+    margin-top: 20px;
+  }
+  .feature-scetion .card .image-part {
+    height: 230px;
+  }
+  .facility-content {
+    max-width: 100%;
+    /* padding-top: 320px; */
+    padding-bottom: 20px;
+  }
+  .facility-section {
+    background-size: 100%;
+    background-image: none;
+    padding: 0;
+}
+.facility-section .container{
+  max-width: 100% !important;
+}
+.facility-content .image-part{
+  display: block;
+  position: relative;
+  margin-bottom: 20px;
+}
+ .facility-content .image-part::before{
+  position: absolute;
+    content: "";
+    background-image:linear-gradient(90deg, rgba(71, 64, 177, 0) 0%, #1e1b4b 100%);
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    top: 0;
+}
+.facility-content p,  .facility-content h2{
+  max-width: 80%;
+  margin: auto;
+  padding: 10px 0;
+}
+  .facility-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .facility-content h2 {
+    font-size: 42px;
+    line-height: 46px;
+  }
 }
 @media screen and (max-width: 767px) {
+  .banner-section .slider-part {
+    margin-top: 0px;
+}
   .banner-contenmt-part h2{
     font-size: 28px;
     line-height: 30px;
@@ -359,18 +442,13 @@ body {
   .banner-section, .feature-scetion, .global-company-section,.footer-part{
     padding: 30px 0;
   }
-  .facility-section{
-    padding: 20px 0;
+ .facility-content p, .facility-content h2 {
+    max-width: 90% !important;
   }
-  .facility-content h2{
-    font-size: 22px;
-    margin-bottom: 10px;
-    line-height: 22px;
-  }
-  .facility-content{
-  }
-  .facility-section::before {
-  }
+  .facility-content h2 {
+    font-size: 30px;
+    line-height: 30px;
+}
   .facility-content p{
     font-size: 12px;
     line-height: 18px;
@@ -387,6 +465,18 @@ body {
     line-height: 30px;
   }
   .global-company-section .logo-grid .logo{
-    width: 33%;
+    width: 33.33%;
+  }
+  .global-company-section .logo-grid .logo:nth-child(n+6){
+    border-bottom: 1px solid #cccccc4d;
+  } 
+  .global-company-section .logo-grid .logo:hover img {
+    transform: scale(1.05);
+}
+  .footer-part .link-part{
+    margin-top: 26px;
+  }
+  .footer-part .badge-part{
+    margin-top: 34px;
   }
 }
