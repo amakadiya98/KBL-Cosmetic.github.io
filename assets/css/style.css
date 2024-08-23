@@ -246,7 +246,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 126px;
   border-radius: 2px;
   background-color: #fff;
   border-bottom: 1px solid #cccccc4d;
@@ -466,6 +466,10 @@ body {
   }
   .global-company-section .logo-grid .logo{
     width: 33.33%;
+    height: 80px;
+  }
+  .global-company-section .logo-grid .logo img{
+    width: 90%;
   }
   .global-company-section .logo-grid .logo:nth-child(n+6){
     border-bottom: 1px solid #cccccc4d;
