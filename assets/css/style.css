@@ -43,6 +43,13 @@ body {
   font-family: 'Inter' !important;
 }
 
+.theme-heading{
+  font-family: 'Bodoni72-OldStyle';
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
 .header-part {
   background-color: #E0E7FF;
   padding: 18px 0;
@@ -84,9 +91,10 @@ body {
   background-color: #A5B4FC0D;
   background-image: url('../images/HologramBG.svg');
   background-size: cover;
+  margin-top: 80px;
 }
 
-.banner-contenmt-part h2 {
+.banner-contenmt-part h1 {
   font-family: 'Bodoni72-OldStyle';
   font-size: 48px;
   font-weight: 700;

@@ -16,7 +16,7 @@
 
 <body>
     <!-- header section -->
-    <nav class="header-part">
+    <nav class="header-part fixed top-0 z-50 w-full">
         <div class="container mx-auto">
             <div class="flex">
                 <div class="flex justify-between items-center w-full">
@@ -84,17 +84,17 @@
     <div class="page-content">
         <!-- page banner scetion  -->
         <section
-            class="content-main-banner bg-[url('./assets/images/solutions/solution-banner.png')] bg-cover bg-center xl:h-[50vh] lg:h-[40vh] h-[30vh] flex justify-center items-center relative before:absolute before:inset-0 before:bg-[#3d4246] before:opacity-25 before:z-10">
-            <h2 class="font-medium text-white lg:text-[60px] text-[40px] relative z-20 md:w-[30%] w-[70%]  text-center">
+            class="content-main-banner bg-[url('./assets/images/solutions/solution-banner.png')] bg-cover bg-center xl:h-[50vh] lg:h-[40vh] h-[30vh] flex justify-center items-center relative before:absolute before:inset-0 before:bg-[#3d4246] before:opacity-25 before:z-10 mt-[80px]">
+            <h1 class="font-medium text-white lg:text-[60px] text-[40px] relative z-20 md:w-[30%] w-[70%]  text-center">
                 Product
-                Development</h2>
+                Development</h1>
         </section>
         <!-- solution page content  -->
         <section class="lg:py-[110px]  py-[40px] bg-[#eef2ff] bg-cover md:bg-right bg-center">
             <section class="solution-content">
                 <div class="container mx-auto lg:max-w-[1100px] max-w-[90%]">
-                    <h3 class="text-center text-primary md:text-[50px] text-[36px] font-semibold">Our Approach</h3>
-                    <h6 class="text-center text-gray-500 text-[24px] font-normal mt-2">We specialize in full service
+                    <h2 class="text-center text-primary md:text-[50px] text-[36px] font-semibold theme-heading">Our Approach</h2>
+                    <h6 class="text-center text-gray-500 text-[24px] font-normal mt-4">We specialize in full service
                         solutions</h6>
                     <p class="text-center text-[#64748B] text-[16px] font-normal mt-4 md:w-[70%] w-[95%] mx-auto">We are
                         an industry
@@ -121,7 +121,7 @@
         <section
             class="md:py-[55px] py-[40px] md:mb-[60px] relative bg-cover bg-center bg-no-repeat before:absolute before:z-[-1] before:inset-0 before:bg-[url('./assets/images/HologramBG.svg')] before:bg-center before:bg-cover before:bg-no-repeat before:opacity-50">
             <div class="container mx-auto lg:max-w-[1100px] max-w-[90%]">
-                <h3 class="text-center text-primary md:text-[50px] text-[36px] font-semibold">Our Solutions</h3>
+                <h2 class="text-center text-primary md:text-[50px] text-[36px] font-semibold theme-heading">Our Solutions</h2>
                 <div class="tab-part">
                     <div class="md:pt-10 pt-4 border-b border-b-[#70707030] tabs">
                         <div class="flex justify-center items-center  mx-auto flex-wrap">
@@ -151,6 +151,7 @@
                             </a>
                         </div>
                     </div>
+                    </div>
                     <div class="section-part flex flex-col gap-[60px] md:mt-[80px] mt-[40px]">
                         <div id="turnKeySection" class="md:grid md:grid-cols-12 gap-4 flex flex-col ">
                             <div class="md:col-span-5 flex flex-col justify-center">
@@ -159,28 +160,28 @@
                             </div>
                             <div class="md:col-span-7 md:pl-10 flex flex-col justify-center">
                                 <div class="flex flex-col gap-4 justify-between">
-                                    <h3 class="text-left text-primary md:text-[40px] text-[28px] font-semibold">Turn key
+                                    <h3 class="text-left text-primary md:text-[42px] text-[28px] font-semibold theme-heading">Turn key
                                     </h3>
-                                    <p class=" text-[14px] text-[#64748B] font-normal">We provide top-of-the-line
+                                    <p class=" text-[16px] text-[#64748B] font-normal">We provide top-of-the-line
                                         innovation,
                                         product
                                         development of national equivalency branding and full-circle testing and
                                         manufacturing. So you don’t have to worry about a thing.</p>
                                     <h6 class=" text-[16px] text-primary font-medium">Primary/Secondary Packaging </h6>
-                                    <p class=" text-[14px] text-[#64748B] font-normal">We understand that packaging and
+                                    <p class=" text-[16px] text-[#64748B] font-normal">We understand that packaging and
                                         presentation is
                                         one of the most crucial aspects to marketing a product. We make sure every
                                         packaging need is met, so graphics are created to be aesthetically pleasing and
                                         components are compatible with your product’s formula.</p>
                                     <h6 class=" text-[16px] text-primary font-medium">Carton & Label Printing</h6>
-                                    <p class=" text-[14px] text-[#64748B] font-normal">In addition to our superior
+                                    <p class=" text-[16px] text-[#64748B] font-normal">In addition to our superior
                                         formulation and
                                         filling capabilities, our packaging and labeling offerings are best in class. We
                                         have a variety of printing capabilities that cater to pressure sensitive labels,
                                         folding cartons, inserts, and brochures and catalogs with various binding
                                         methods.</p>
                                     <h6 class=" text-[16px] text-primary font-medium">Compounding </h6>
-                                    <p class=" text-[14px] text-[#64748B] font-normal">We provide flexible compounding
+                                    <p class=" text-[16px] text-[#64748B] font-normal">We provide flexible compounding
                                         for a
                                         variety of
                                         products, including semi-solids, creams, liquids and gels. Our commitment to
@@ -193,16 +194,16 @@
                         <div id="fillingSection" class="md:grid md:grid-cols-12 gap-4 flex flex-col-reverse ]">
                             <div class="md:col-span-7 md:pr-10 flex flex-col justify-center">
                                 <div class="flex flex-col gap-4 justify-between">
-                                    <h3 class="text-left text-primary md:text-[40px] text-[28px] font-semibold">Filling
+                                    <h3 class="text-left text-primary md:text-[42px] text-[28px] font-semibold theme-heading">Filling
                                     </h3>
-                                    <p class=" text-[14px] text-[#64748B] font-normal">Our facility and equipment allow
+                                    <p class=" text-[16px] text-[#64748B] font-normal">Our facility and equipment allow
                                         for
                                         high-volume
                                         filling of a multitude of product in tubes, bottles, jars and pots, airless
                                         pumps, regular and slim-sized lipstick cases and so much more.</p>
                                     <div>
                                         <h6 class=" text-[16px] text-primary font-medium">Personal Care & Cosmetics</h6>
-                                        <p class=" text-[14px] text-[#64748B] font-normal">From creams and lotions to
+                                        <p class=" text-[16px] text-[#64748B] font-normal">From creams and lotions to
                                             shampoos,
                                             conditioners, washes, liquid soaps and every other personal care product you
                                             can think of we’ve got you covered. We mix formulas in batch tanks ranging
@@ -211,17 +212,17 @@
                                             volume.</p>
                                     </div>
                                     <ul>
-                                        <li class="text-[14px] text-[#64748B] font-normal">Creams and rinses</li>
-                                        <li class="text-[14px] text-[#64748B] font-normal">Foaming bath products</li>
-                                        <li class="text-[14px] text-[#64748B] font-normal">Shower gels</li>
-                                        <li class="text-[14px] text-[#64748B] font-normal">Body lotion</li>
-                                        <li class="text-[14px] text-[#64748B] font-normal">Liquid hand soap</li>
-                                        <li class="text-[14px] text-[#64748B] font-normal">Shampoos & conditioners</li>
-                                        <li class="text-[14px] text-[#64748B] font-normal">All cosmetics</li>
-                                        <li class="text-[14px] text-[#64748B] font-normal">Sample sachets</li>
-                                        <li class="text-[14px] text-[#64748B] font-normal">Pouching</li>
-                                        <li class="text-[14px] text-[#64748B] font-normal">Sleeving</li>
-                                        <li class="text-[14px] text-[#64748B] font-normal">Shrink Wrap</li>
+                                        <li class="text-[16px] text-[#64748B] font-normal">Creams and rinses</li>
+                                        <li class="text-[16px] text-[#64748B] font-normal">Foaming bath products</li>
+                                        <li class="text-[16px] text-[#64748B] font-normal">Shower gels</li>
+                                        <li class="text-[16px] text-[#64748B] font-normal">Body lotion</li>
+                                        <li class="text-[16px] text-[#64748B] font-normal">Liquid hand soap</li>
+                                        <li class="text-[16px] text-[#64748B] font-normal">Shampoos & conditioners</li>
+                                        <li class="text-[16px] text-[#64748B] font-normal">All cosmetics</li>
+                                        <li class="text-[16px] text-[#64748B] font-normal">Sample sachets</li>
+                                        <li class="text-[16px] text-[#64748B] font-normal">Pouching</li>
+                                        <li class="text-[16px] text-[#64748B] font-normal">Sleeving</li>
+                                        <li class="text-[16px] text-[#64748B] font-normal">Shrink Wrap</li>
                                     </ul>
                                 </div>
                             </div>
@@ -237,33 +238,33 @@
                             </div>
                             <div class="md:col-span-7 md:pl-10 flex flex-col justify-center">
                                 <div class="flex flex-col gap-4 justify-between">
-                                    <h3 class="text-left text-primary md:text-[40px] text-[28px] font-semibold">
-                                        Regulatory</h3>
-                                    <p class="text-[14px] text-[#64748B] font-normal">As part of our transparency
+                                    <h3 class="text-left text-primary md:text-[42px] text-[28px] font-semibold theme-heading">
+                                        Regulatory </h3>
+                                    <p class="text-[16px] text-[#64748B] font-normal">As part of our transparency
                                         mission, we are
                                         committed to having the most qualified and capable Regulatory Affairs division
                                         in the business. We guide our partners through every regulation and
                                         documentation required for their particular project.</p>
                                     <div>
-                                        <p class="text-[14px] text-[#64748B] font-normal">Our Practices include:</p>
+                                        <p class="text-[16px] text-[#64748B] font-normal">Our Practices include:</p>
                                         <ul>
-                                            <li class="text-[14px] text-[#64748B] font-normal">Formula review for
+                                            <li class="text-[16px] text-[#64748B] font-normal">Formula review for
                                                 compliance in the
                                                 U.S
                                                 & international markets</li>
-                                            <li class="text-[14px] text-[#64748B] font-normal">International
+                                            <li class="text-[16px] text-[#64748B] font-normal">International
                                                 documentation</li>
-                                            <li class="text-[14px] text-[#64748B] font-normal">Certifications (GMP, BSE,
+                                            <li class="text-[16px] text-[#64748B] font-normal">Certifications (GMP, BSE,
                                                 FDA
                                                 Registered,
                                                 Certificates of Free Sale, etc.)</li>
-                                            <li class="text-[14px] text-[#64748B] font-normal">Registrations and filings
+                                            <li class="text-[16px] text-[#64748B] font-normal">Registrations and filings
                                                 (TTB / ATF,
                                                 FDA)</li>
-                                            <li class="text-[14px] text-[#64748B] font-normal">Qualitative and
+                                            <li class="text-[16px] text-[#64748B] font-normal">Qualitative and
                                                 quantitative formula
                                                 breakdowns</li>
-                                            <li class="text-[14px] text-[#64748B] font-normal">Accurate ingredient
+                                            <li class="text-[16px] text-[#64748B] font-normal">Accurate ingredient
                                                 listings</li>
                                         </ul>
                                     </div>
@@ -273,16 +274,16 @@
                         <div id="innovationSection" class="md:grid md:grid-cols-12 flex flex-col-reverse gap-4">
                             <div class="md:col-span-7 md:pr-10 flex flex-col justify-center">
                                 <div class="flex flex-col gap-4 justify-between">
-                                    <h3 class="text-left text-primary md:text-[40px] text-[28px] font-semibold">
+                                    <h3 class="text-left text-primary md:text-[42px] text-[28px] font-semibold theme-heading">
                                         Innovation</h3>
-                                    <p class=" text-[14px] text-[#64748B] font-normal">KBL is the premiere beauty
+                                    <p class=" text-[16px] text-[#64748B] font-normal">KBL is the premiere beauty
                                         destination for
                                         globally made beauty products. KBL not only has their pulse on innovation
                                         combined with science, health and beauty for the beauty and personal care
                                         industry. We want to bring that innovation to your company to introduce a
                                         product line that is quality and formula driven.
                                     </p>
-                                    <p class=" text-[14px] text-[#64748B] font-normal">We offer innovative formulations
+                                    <p class=" text-[16px] text-[#64748B] font-normal">We offer innovative formulations
                                         in all
                                         beauty products; an extensive on-trend library of speak-to-market formulations
                                         and custom formulas. We are constantly striving to innovate new methodologies
@@ -299,13 +300,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
+            </div>
         </section>
 
         <!-- slider part  -->
         <section class="md:py-[55px] py-[40px] md:mb-[60px]">
             <div class="container mx-auto lg:max-w-[1100px] max-w-[90%]">
-                <h3 class="text-center text-primary md:text-[50px] text-[36px] font-semibold">Our Blog</h3>
+                <h3 class="text-center text-primary md:text-[50px] text-[36px] font-semibold theme-heading">Our Blog</h3>
                 <div class="slider-part mt-5">
                     <div class="carousel ">
                         <div class="owl-carousel owl-theme">
@@ -315,11 +316,11 @@
                                         <img src="./assets/images/solutions/slider-img-1.png" alt="slider-img" class="rounded-l-xl"/>
                                     </div>
                                     <div class="lg:col-span-6 p-5 ">
-                                        <a class="text-gray-700 uppercase text-[14px]">beauty manufacturing</a>
+                                        <a class="text-gray-700 uppercase text-[16px]">beauty manufacturing</a>
                                         <h6 class="text-primary font-bold text-[18px] mt-4">Discover the
                                             Importance of Hair Care Oil in Maintaining Moisture and
                                             Preventing Damage</h6>
-                                        <p class="line-clamp-4 text-base text-secondary text-[14px] mt-2">hair care oil
+                                        <p class="line-clamp-4  text-secondary text-[16px] mt-2">hair care oil
                                             is crucial for maintaining moisture in all hair types. Applying
                                             a few drops to damp hair helps to lock in moisture, especially in dry hair
                                             that struggles to retain hydration. By using oils like sweet almond or
@@ -330,7 +331,7 @@
                                         <!-- <div class="flex justify-between items-center mt-3"> -->
                                         <p class="text-sm text-gray-700 font-medium mt-3">Aug 30, 2024</p>
                                         <button
-                                            class="text-[#FB923C] text-[14px] flex justify-start items-center font-bold transition-transform duration-300 ease-out hover:translate-x-1 mt-4">
+                                            class="text-[#FB923C] text-[16px] flex justify-start items-center font-bold transition-transform duration-300 ease-out hover:translate-x-1 mt-4">
                                             Read More
                                             <div class="w-[18px] h-[14px]">
                                                 <img src="./assets/images/right-arrow.svg" alt="arrow" class="ml-2" />
@@ -346,11 +347,11 @@
                                         <img src="./assets/images/solutions/slider-img-1.png" alt="slider-img" class="rounded-l-xl"/>
                                     </div>
                                     <div class="lg:col-span-6 p-5 ">
-                                        <a class="text-gray-700 uppercase text-[14px]">beauty manufacturing</a>
+                                        <a class="text-gray-700 uppercase text-[16px]">beauty manufacturing</a>
                                         <h6 class="text-primary font-bold text-[18px] mt-4">Discover the
                                             Importance of Hair Care Oil in Maintaining Moisture and
                                             Preventing Damage</h6>
-                                        <p class="line-clamp-4 text-base text-secondary text-[14px] mt-2">hair care oil
+                                        <p class="line-clamp-4  text-secondary text-[16px] mt-2">hair care oil
                                             is crucial for maintaining moisture in all hair types. Applying
                                             a few drops to damp hair helps to lock in moisture, especially in dry hair
                                             that struggles to retain hydration. By using oils like sweet almond or
@@ -361,7 +362,7 @@
                                         <!-- <div class="flex justify-between items-center mt-3"> -->
                                         <p class="text-sm text-gray-700 font-medium mt-3">Aug 30, 2024</p>
                                         <button
-                                            class="text-[#FB923C] text-[14px] flex justify-start items-center font-bold transition-transform duration-300 ease-out hover:translate-x-1 mt-4">
+                                            class="text-[#FB923C] text-[16px] flex justify-start items-center font-bold transition-transform duration-300 ease-out hover:translate-x-1 mt-4">
                                             Read More
                                             <div class="w-[18px] h-[14px]">
                                                 <img src="./assets/images/right-arrow.svg" alt="arrow" class="ml-2" />
@@ -377,11 +378,11 @@
                                         <img src="./assets/images/solutions/slider-img-1.png" alt="slider-img" class="rounded-l-xl"/>
                                     </div>
                                     <div class="lg:col-span-6 p-5 ">
-                                        <a class="text-gray-700 uppercase text-[14px]">beauty manufacturing</a>
+                                        <a class="text-gray-700 uppercase text-[16px]">beauty manufacturing</a>
                                         <h6 class="text-primary font-bold text-[18px] mt-4">Discover the
                                             Importance of Hair Care Oil in Maintaining Moisture and
                                             Preventing Damage</h6>
-                                        <p class="line-clamp-4 text-base text-secondary text-[14px] mt-2">hair care oil
+                                        <p class="line-clamp-4  text-secondary text-[16px] mt-2">hair care oil
                                             is crucial for maintaining moisture in all hair types. Applying
                                             a few drops to damp hair helps to lock in moisture, especially in dry hair
                                             that struggles to retain hydration. By using oils like sweet almond or
@@ -392,7 +393,7 @@
                                         <!-- <div class="flex justify-between items-center mt-3"> -->
                                         <p class="text-sm text-gray-700 font-medium mt-3">Aug 30, 2024</p>
                                         <button
-                                            class="text-[#FB923C] text-[14px] flex justify-start items-center font-bold transition-transform duration-300 ease-out hover:translate-x-1 mt-4">
+                                            class="text-[#FB923C] text-[16px] flex justify-start items-center font-bold transition-transform duration-300 ease-out hover:translate-x-1 mt-4">
                                             Read More
                                             <div class="w-[18px] h-[14px]">
                                                 <img src="./assets/images/right-arrow.svg" alt="arrow" class="ml-2" />
