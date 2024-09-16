@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research and Development</title>
+  <link href="./assets/css/tailwind.min.css" rel="stylesheet" />
+  <link href="./assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- header part  -->
+  <nav class="header-part fixed top-0 z-50 w-full">
+    <div class="container mx-auto">
+      <div class="flex">
+        <div class="flex justify-between items-center w-full">
+          <!-- Logo -->
+          <div class="logo-part">
+            <a href="./index.html" class="flex items-center">
+              <img src="./assets/images/Logo.svg" alt="Logo">
+            </a>
+          </div>
+          <!-- Primary Navbar items -->
+          <div class="hidden lg:flex items-center xl:space-x-8 lg:space-x-5 md:space-x-2">
+            <a href="./ContractManufacturing.html" class="nav-link text-primary">Contract Manufacturing</a>
+            <a href="./Formulation.html" class="nav-link text-primary">Formulation</a>
+            <a href="./PrivateLabel.html" class="nav-link text-primary">Private Label</a>
+            <a href="./R&D.html" class="nav-link text-primary">R&D</a>
+            <a href="./Contact.html" class="nav-link text-primary">Contact</a>
+          </div>
+          <!-- Secondary Navbar items -->
+          <div class="hidden lg:flex items-center space-x-3 ">
+            <a href="" class="primary-btn lignt-btn btn-small">Get Started</a>
+          </div>
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="lg:hidden flex items-center mobile-menu-btn">
+          <div class="lg:hidden flex items-center mr-2">
+            <a href="" class="primary-btn lignt-btn btn-small">Get Started</a>
+          </div>
+          <button class="outline-none mobile-menu-button">
+            <svg class=" w-6 h-6 text-gray-500 hover:text-primary " x-show="!showMenu" fill="none"
+              stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- mobile menu -->
+    <div class="hidden mobile-menu mt-6">
+      <ul class="">
+        <li><a href="./ContractManufacturing.html"
+            class="block text-sm text-center px-2 py-2 text-white bg-primary font-semibold">Contract Manufacturing</a>
+        </li>
+        <li class="active"><a href="./Formulation.html"
+            class="block text-sm text-center px-2 py-2 hover:bg-primary hover:text-white transition duration-300">Formulation</a>
+        </li>
+        <li><a href="./PrivateLabel.html"
+            class="block text-sm text-center px-2 py-2 hover:bg-primary hover:text-white transition duration-300">Private
+            Label</a></li>
+        <li><a href="./R&D.html"
+            class="block text-sm text-center px-2 py-2 hover:bg-primary hover:text-white transition duration-300">R&D</a>
+        </li>
+        <li><a href="./Contact.html"
+            class="block text-sm text-center px-2 py-2 hover:bg-primary hover:text-white transition duration-300">Contact</a>
+        </li>
+      </ul>
+      <!-- <div class="flex items-center justify-center space-x-3 ">
+          <a href="" class="primary-btn lignt-btn btn-small">Get Started</a>
+        </div> -->
+    </div>
+  </nav>
+  <!-- main section -->
+  <div class="page-content">
+    <!-- page banner scetion  -->
+    <section
+      class="content-main-banner bg-[url('./assets/images/r&d/r&d-banner.jpg')] bg-cover bg-center xl:h-[50vh] lg:h-[40vh] h-[30vh] flex justify-center items-center relative before:absolute before:inset-0 before:bg-[#3d4246] before:opacity-40 before:z-10 mt-[80px]">
+      <h1 class="font-medium text-white lg:text-[60px] text-[40px] relative z-20 text-center">Formulation</h1>
+    </section>
+    <!-- formulation section  -->
+    <section class="lg:py-[110px] py-[40px] bg-[#eef2ff]">
+      <div class="container mx-auto lg:max-w-[1100px] max-w-[90%]">
+        <div class="md:grid md:grid-cols-12 gap-4 flex flex-col">
+          <div class="md:col-span-6 flex flex-col ">
+            <h4 class="text-secondary font-semibold text-[20px] mb-4">Research And Development</h4>
+            <h1 class="text-left md:w-[80%] w-full text-primary md:text-[50px] text-[34px] font-semibold theme-heading">
+              Formulation And Laboratory Services
+            </h1>
+            <p class="text-secondary mb-4 md:text-[18px] text-[16px] font-normal mt-8">At Adonis we offer a range of
+              services designed to help identify and solve challenges. Our R&D meets the ever changing needs of our
+              customers and remains at the forefront of the competition.</p>
+            <ul class="mt-4">
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Product development</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Over 2,000 private label formulas</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                EU dossier consultation and assistance</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Regulatory assistance</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Long term OTC stability testing</li>
+            </ul>
+          </div>
+          <div class="md:col-span-6 flex flex-col ">
+            <img src="./assets/images/r&d/formulation-img2.png" alt="formulation img"
+              class="w-[76%] ml-auto shadow-[0_0_10px_0_#6366f14d]" />
+            <img src="./assets/images/r&d/formulation-img1.png" alt="formulation img"
+              class="w-[40%] mt-[-20%] ml-[10%] shadow-[0_0_10px_0_#6366f14d]" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- development section  -->
+    <section class="lg:py-[110px] py-[40px]">
+      <div class="container mx-auto lg:max-w-[1100px] max-w-[90%] ">
+        <h4 class="text-secondary font-semibold text-[20px] mb-4 text-center">Product Development</h4>
+        <h1
+          class="text-center md:w-[80%] w-full mx-auto text-primary md:text-[50px] text-[34px] font-semibold theme-heading">
+          Formulating The Future Of Consumer Products
+        </h1>
+        <p
+          class="text-secondary mb-4 md:text-[18px] text-[16px] font-normal mt-8 text-center md:w-[90%] mx-auto w-full">
+          A manufacturing leader of beauty, home, and health products, Adonis offers state of the art lab and filling
+          solutions for the world’s top brands.</p>
+        <h2
+          class="text-center md:w-[80%] w-full mx-auto text-primary md:text-[36px] text-[24px] font-semibold theme-heading mt-10">
+          Our Capabilities
+        </h2>
+        <div class="flex flex-wrap gap-4 mt-8 w-full">
+
+          <a href="#"
+            class="md:w-[23%] w-[48%] flex justify-center items-center py-[60px] px-[40px] bg-[#eef2ff] hover:bg-gradient-to-t hover:from-[#1E1B4B] hover:to-[#6366F1] card group transition-colors duration-300 rounded-[4px] shadow-[0_0_10px_0_#6366f14d]">
+            <h3
+              class="text-primary font-bold text-[22px] text-center group-hover:text-white transition-colors duration-300">
+              Custom Formulation
+            </h3>
+          </a>
+
+          <a href="#"
+            class="md:w-[23%] w-[48%] flex justify-center items-center py-[60px] px-[40px] bg-[#eef2ff] hover:bg-gradient-to-t hover:from-[#1E1B4B] hover:to-[#6366F1] card group transition-colors duration-300 rounded-[4px] shadow-[0_0_10px_0_#6366f14d]">
+            <h3
+              class="text-primary font-bold text-[22px] text-center group-hover:text-white transition-colors duration-300">
+              Private Labeling
+            </h3>
+          </a>
+          <a href="#"
+            class="md:w-[23%] w-[48%] flex justify-center items-center py-[60px] px-[40px] bg-[#eef2ff] hover:bg-gradient-to-t hover:from-[#1E1B4B] hover:to-[#6366F1] card group transition-colors duration-300 rounded-[4px] shadow-[0_0_10px_0_#6366f14d]">
+            <h3
+              class="text-primary font-bold text-[22px] text-center group-hover:text-white transition-colors duration-300">
+              Reverse Engineering
+            </h3>
+          </a>
+          <a href="#"
+            class="md:w-[23%] w-[48%] flex justify-center items-center py-[60px] px-[40px] bg-[#eef2ff] hover:bg-gradient-to-t hover:from-[#1E1B4B] hover:to-[#6366F1] card group transition-colors duration-300 rounded-[4px] shadow-[0_0_10px_0_#6366f14d]">
+            <h3
+              class="text-primary font-bold text-[22px] text-center group-hover:text-white transition-colors duration-300">
+              Formula Tranfers
+            </h3>
+          </a>
+          <a href="#"
+            class="md:w-[23%] w-[48%] flex justify-center items-center py-[60px] px-[40px] bg-[#eef2ff] hover:bg-gradient-to-t hover:from-[#1E1B4B] hover:to-[#6366F1] card group transition-colors duration-300 rounded-[4px] shadow-[0_0_10px_0_#6366f14d]">
+            <h3
+              class="text-primary font-bold text-[22px] text-center group-hover:text-white transition-colors duration-300">
+              Formula Troubleshooting
+            </h3>
+          </a>
+          <a href="#"
+            class="md:w-[23%] w-[48%] flex justify-center items-center py-[60px] px-[40px] bg-[#eef2ff] hover:bg-gradient-to-t hover:from-[#1E1B4B] hover:to-[#6366F1] card group transition-colors duration-300 rounded-[4px] shadow-[0_0_10px_0_#6366f14d]">
+            <h3
+              class="text-primary font-bold text-[22px] text-center group-hover:text-white transition-colors duration-300">
+              Lab Services & Quality Control
+            </h3>
+          </a>
+          <a href="#"
+            class="md:w-[23%] w-[48%] flex justify-center items-center py-[60px] px-[40px] bg-[#eef2ff] hover:bg-gradient-to-t hover:from-[#1E1B4B] hover:to-[#6366F1] card group transition-colors duration-300 rounded-[4px] shadow-[0_0_10px_0_#6366f14d]">
+            <h3
+              class="text-primary font-bold text-[22px] text-center group-hover:text-white transition-colors duration-300">
+              Accelerated Stability Testing
+            </h3>
+          </a>
+          <a href="#"
+            class="md:w-[23%] w-[48%] flex justify-center items-center py-[60px] px-[40px] bg-[#eef2ff] hover:bg-gradient-to-t hover:from-[#1E1B4B] hover:to-[#6366F1] card group transition-colors duration-300 rounded-[4px] shadow-[0_0_10px_0_#6366f14d]">
+            <h3
+              class="text-primary font-bold text-[22px] text-center group-hover:text-white transition-colors duration-300">
+              Ingredient Marketing
+            </h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- image text section  -->
+    <section>
+      <div class="md:grid md:grid-cols-12">
+        <div class="md:col-span-6">
+          <div class="bg-[url('./assets/images/contract-manufacturing/card-bg-1.jpg')] bg-cover bg-center w-full">
+            <div
+              class="bg-gradient-to-r from-[#827af0] to-[#080270] opacity-80 h-[480px] w-full flex flex-col justify-center">
+              <div class="flex flex-col items-end md:mr-20 mr-8">
+                <h3 class="text-right text-white md:text-[44px] text-[36px] font-bold w-[80%] mb-4">Ready To Discuss
+                  <br />Your Needs?
+                </h3>
+                <h4 class="text-right text-white font-semibold text-[20px] mb-2">Custom formula development</h4>
+                <p class="text-right text-white font-normal text-[16px] ">We offer up to 3 sample submissions to
+                  finalize</p>
+                <p class="text-right text-white font-normal text-[16px] ">your formula to make sure we get it right</p>
+                <button
+                  class="transform transition-transform duration-300 hover:scale-110 rounded-[30px] bg-white py-3 px-8 font-semibold text-primary mt-10 ">
+                  contact us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-6">
+          <div class="bg-[url('./assets/images/contract-manufacturing/card-bg-2.jpg')] bg-cover bg-center w-full">
+            <div
+              class="bg-gradient-to-l from-[#6e7072] to-[#121619] opacity-80 h-[480px] w-full flex flex-col justify-center">
+              <div class="flex flex-col items-start md:ml-20 ml-8">
+                <h3 class="text-left text-white md:text-[44px] text-[36px] font-bold w-[70%] mb-4">Experienced Team
+                  <br />
+                  of Chemists
+                </h3>
+                <h4 class="text-left text-white font-semibold text-[20px] mb-2">Over 50 years of experience</h4>
+                <p class="text-left text-white font-normal md:text-[18px] text-[16px] ">Our chemists and lab technicians
+                  are versed in
+                </p>
+                <p class="text-left text-white font-normal text-[16px] ">R&D, quality control, and production</p>
+                <button
+                  class="transform transition-transform duration-300 hover:scale-110 rounded-[30px] bg-white py-3 px-8 font-semibold text-gray-700 mt-10 ">
+                  About us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- idea section  -->
+    <section class="lg:py-[110px] py-[40px]">
+      <div class="container mx-auto lg:max-w-[1100px] max-w-[90%]">
+        <h4 class="text-secondary font-semibold text-[20px] mb-4 text-center">Our Passion</h4>
+        <h1
+          class="text-center md:w-[80%] w-full mx-auto text-primary md:text-[50px] text-[34px] font-semibold theme-heading">
+          We Craft Ideas For Your Favorite Products Of Tomorrow
+        </h1>
+        <div class="md:grid md:grid-cols-12 gap-4 flex flex-col mt-16">
+          <div class="md:col-span-6 flex flex-col ">
+            <div class="flex">
+              <ul class="relative pl-[4px] border-l border-l-gray">
+                <li class="relative pl-8 mb-4">
+                  <span
+                    class="absolute left-[-16px] top-[2px] flex items-center justify-center w-6 h-6 rounded-full bg-primary text-white font-semibold text-[14px]">1</span>
+                  Our team of chemists are committed to creating category leading products that outperform the
+                  competition.
+                </li>
+                <li class="relative pl-8 mb-4">
+                  <span
+                    class="absolute left-[-16px] top-[2px] flex items-center justify-center w-6 h-6 rounded-full bg-primary text-white font-semibold text-[14px]">2</span>
+                  Our innovative manufacturing processes begin in our R&D lab.
+                </li>
+                <li class="relative pl-8 mb-4">
+                  <span
+                    class="absolute left-[-16px] top-[2px] flex items-center justify-center w-6 h-6 rounded-full bg-primary text-white font-semibold text-[14px]">3</span>
+                  High quality consumable products are made with high quality ingredients.
+                </li>
+                <li class="relative pl-8 mb-4">
+                  <span
+                    class="absolute left-[-16px] top-[2px] flex items-center justify-center w-6 h-6 rounded-full bg-primary text-white font-semibold text-[14px]">4</span>
+                  Our quality control and quality assurance work together to ensure products go through rigorous testing
+                  and continued stability monitoring to eliminate any defects during production.
+                </li>
+                <li class="relative pl-8 mb-4">
+                  <span
+                    class="absolute left-[-16px] top-[2px] flex items-center justify-center w-6 h-6 rounded-full bg-primary text-white font-semibold text-[14px]">5</span>
+                  Meticulous ingredient research is put into every product we create, ensuring that every product
+                  produced is a success.
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="md:col-span-6 flex flex-col ">
+            <img src="./assets/images/r&d/idea-img.png" alt="formulation img"
+              class="w-[90%] ml-auto shadow-[0_0_10px_0_#6366f14d]" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer part  -->
+    <footer class="footer-part">
+      <div class="container mx-auto">
+        <div class="grid md:grid-cols-2 sm:grid-cols-1">
+          <div class="footer-link">
+            <div class="logo-part">
+              <img src="./assets/images/Logo.svg" alt="logo" />
+              <p class="mt-2">©2024 Arminak Solutions LLC dba KBL Cosmetics</p>
+            </div>
+            <div class="link-part">
+              <ul>
+                <li>
+                  <a href="./index.html" class="hover:underline">Home</a>
+                </li>
+                <li>
+                  <a href="./ContractManufacturing.html" class="hover:underline">Contract Manufacturing</a>
+                </li>
+                <li>
+                  <a href="./Formulation.html" class="hover:underline">Custom Formulation</a>
+                </li>
+                <li>
+                  <a href="./PrivateLabel.html" class="hover:underline">Private Label</a>
+                </li>
+                <li>
+                  <a href="./R&D.html" class="hover:underline">Research & Development</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">About Us</a>
+                </li>
+                <li>
+                  <a href="./Contact.html" class="hover:underline">Contact</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Terms and Conditions</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Terms & Conditions of Sale</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Terms & Conditions for Suppliers</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-social md:mt-0 mt-10">
+            <div class="social-link-part flex gap-4">
+              <a href="https://www.facebook.com/kblcosmetics" target="_blank"><img src="./assets/images/facebook.svg"
+                  alt="icon"></a>
+              <a href="https://twitter.com/kblcosmetics1" target="_blank"><img src="./assets/images/x-box.svg"
+                  alt="icon"></a>
+              <a href="https://www.pinterest.com/kblcosmetics" target="_blank"><img src="./assets/images/Pinterest.svg"
+                  alt="icon"></a>
+              <a href="https://www.instagram.com/kblcosmeticslab" target="_blank"><img
+                  src="./assets/images/Instagram.svg" alt="icon"></a>
+              <a href="https://vimeo.com/kblcosmetics" target="_blank"><img src="./assets/images/vimo.svg"
+                  alt="icon"></a>
+            </div>
+            <div class="badge-part">
+              <div class="image-block">
+                <img src="./assets/images/Women-Owned-Badge.svg" alt="badge" />
+              </div>
+              <p class="mt-4 max-w-80">Certifying women-owned businesses is the foundation of WBENC’s mission, a legacy
+                that is carried on for over 20 years.</p>
+              <p class="mt-4 max-w-80">WBENC Certification is nationally recognized, and preferred by more than 1,000
+                Corporate and Government Members.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/Js/tailwind.js"></script>
+    <script src="./assets/Js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contract Manufacturing</title>
+  <link href="./assets/css/tailwind.min.css" rel="stylesheet" />
+  <link href="./assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- header  -->
+  <nav class="header-part fixed top-0 z-50 w-full">
+    <div class="container mx-auto">
+      <div class="flex">
+        <div class="flex justify-between items-center w-full">
+          <!-- Logo -->
+          <div class="logo-part">
+            <a href="./index.html" class="flex items-center">
+              <img src="./assets/images/Logo.svg" alt="Logo">
+            </a>
+          </div>
+          <!-- Primary Navbar items -->
+          <div class="hidden lg:flex items-center xl:space-x-8 lg:space-x-5 md:space-x-2">
+            <a href="./ContractManufacturing.html" class="nav-link text-primary">Contract Manufacturing</a>
+            <a href="./Formulation.html" class="nav-link text-primary">Formulation</a>
+            <a href="./PrivateLabel.html" class="nav-link text-primary">Private Label</a>
+            <a href="./R&D.html" class="nav-link text-primary">R&D</a>
+            <a href="./Contact.html" class="nav-link text-primary">Contact</a>
+          </div>
+          <!-- Secondary Navbar items -->
+          <div class="hidden lg:flex items-center space-x-3 ">
+            <a href="" class="primary-btn lignt-btn btn-small">Get Started</a>
+          </div>
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="lg:hidden flex items-center mobile-menu-btn">
+          <div class="lg:hidden flex items-center mr-2">
+            <a href="" class="primary-btn lignt-btn btn-small">Get Started</a>
+          </div>
+          <button class="outline-none mobile-menu-button">
+            <svg class=" w-6 h-6 text-gray-500 hover:text-primary " x-show="!showMenu" fill="none"
+              stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- mobile menu -->
+    <div class="hidden mobile-menu mt-6">
+      <ul class="">
+        <li><a href="./ContractManufacturing.html"
+            class="block text-sm text-center px-2 py-2 text-white bg-primary font-semibold">Contract
+            Manufacturing</a></li>
+        <li class="active"><a href="./Formulation.html"
+            class="block text-sm text-center px-2 py-2 hover:bg-primary hover:text-white transition duration-300">Formulation</a>
+        </li>
+        <li><a href="./PrivateLabel.html"
+            class="block text-sm text-center px-2 py-2 hover:bg-primary hover:text-white transition duration-300">Private
+            Label</a></li>
+        <li><a href="./R&D.html"
+            class="block text-sm text-center px-2 py-2 hover:bg-primary hover:text-white transition duration-300">R&D</a>
+        </li>
+        <li><a href="./Contact.html"
+            class="block text-sm text-center px-2 py-2 hover:bg-primary hover:text-white transition duration-300">Contact</a>
+        </li>
+      </ul>
+      <!-- <div class="flex items-center justify-center space-x-3 ">
+              <a href="" class="primary-btn lignt-btn btn-small">Get Started</a>
+            </div> -->
+    </div>
+  </nav>
+  <!-- main section -->
+  <div class="page-content">
+    <!-- page banner scetion  -->
+    <section
+      class="content-main-banner bg-[url('./assets/images/contract-manufacturing/contract-banner.jpeg')] bg-cover bg-center xl:h-[50vh] lg:h-[40vh] h-[30vh] flex justify-center items-center relative before:absolute before:inset-0 before:bg-[#3d4246] before:opacity-40 before:z-10 mt-[80px]">
+      <h1 class="font-medium text-white lg:text-[60px] text-[40px] relative z-20 text-center">Contract
+        Manufacturing</h1>
+    </section>
+
+    <!-- product segment section  -->
+    <section class="lg:py-[110px] py-[40px]">
+      <div class="container mx-auto lg:max-w-[1100px] max-w-[90%]">
+        <div class="md:grid md:grid-cols-12 gap-4 flex flex-col">
+          <div class="md:col-span-6 flex flex-col ">
+            <h4 class="text-secondary font-semibold text-[20px] mb-4">Product Segments</h4>
+            <h1 class="text-left md:w-[80%] w-full text-primary md:text-[50px] text-[34px] font-semibold theme-heading">Beauty,
+              Personal Care, and Home Products
+            </h1>
+          </div>
+          <div class="md:col-span-6 flex flex-col ">
+            <p class="text-secondary mb-4 md:text-[18px] text-[16px] font-normal">At Adonis, we believe manufacturing is an art, and in
+              order to create, we must innovate. Our 78,000 square ft. state-of-the-art manufacturing facility in
+              Corona, CA has been creating products for the top global brands for over 36 years.</p>
+            <p class="text-secondary mb-4 md:text-[18px] text-[16px] font-normal">Our facility is in compliance with the US FDA, and is
+              GMP certified. We work in accordance with rigorous quality, safety, and environmental standards to deliver
+              world class, innovative products.</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-12 gap-0">
+          <div class="col-span-5">
+            <img src="./assets/images/contract-manufacturing/product-img1.png" src="product img"
+              class="md:mt-[-6%] mt-[5%] relative z-1 shadow-[0_0_10px_0_#6366f14d]" />
+          </div>
+          <div class="col-span-7">
+            <img src="./assets/images/contract-manufacturing/product-img2.png" src="product img"
+              class="md:mt-[10%] mt-[20%] ml-[-10%] max-w-[110%] shadow-[0_0_10px_0_#6366f14d]" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- capabilities section  -->
+    <section>
+      <div class="container mx-auto lg:max-w-[1100px] max-w-[90%]">
+        <h4 class="text-secondary font-semibold text-[20px] mb-4">Innovation And Production</h4>
+        <h1 class="text-left text-primary md:text-[50px] text-[36px] font-semibold theme-heading">
+          Our Capabilities
+        </h1>
+        <p class="text-secondary mb-4 md:text-[18px] text-[16px] font-normal md:mt-10 mt-4">Adonis ensures every product we produce is
+          delivered on time and adheres to the highest quality standard possible.
+          Our facility can handle nearly any order size and manufacturing requirements.
+        </p>
+        <div class="md:grid md:grid-cols-12 md:gap-10 gap-4 flex flex-col mt-10 mb-10">
+          <div
+            class="card md:col-span-4 bg-[#ffffff] shadow-[0_0_10px_0_#6366f14d] rounded-[10px] px-[24px] py-[12px] transform transition duration-200 hover:scale-105">
+            <h3 class="text-primary md:text-[28px] text-[24px] font-semibold theme-heading">Manufacturing</h3>
+            <ul class="mt-6">
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                18 stainless steel, steam heated tanks with sizes from 400 - 23,500 lbs</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                9 permanent filling lines and 2 portable lines</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Semiautomatic & automatic piston fillers</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Recirculating pressure fillers</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Hot fills</li>
+            </ul>
+          </div>
+          <div
+            class="card md:col-span-4 shadow-[0_0_10px_0_#6366f14d] rounded-[10px] px-[24px] py-[12px] transform transition duration-200 hover:scale-105">
+            <h3 class="text-primary md:text-[28px] text-[24px] font-semibold theme-heading">Sealing</h3>
+            <ul class="mt-6">
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Tube sealers</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Induction sealing</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Shrink wrap sealing</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Tamper proof sealing</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Automatic carton sealing</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Automatic cappers</li>
+            </ul>
+          </div>
+          <div
+            class="card md:col-span-4 shadow-[0_0_10px_0_#6366f14d] rounded-[10px] px-[24px] py-[12px] transform transition duration-200 hover:scale-105">
+            <h3 class="text-primary md:text-[28px] text-[24px] font-semibold theme-heading">Labeling</h3>
+            <ul class="mt-6">
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Bottom coding</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Automatic labeling equiptment</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Front, back, and wrap around labels</li>
+              <li
+                class="text-secondary text-[16px] font-normal mb-2 relative pl-8 before:absolute before:left-0 before:top-1 before:w-[14px] before:h-[14px] before:bg-[url(./assets/images/contract-manufacturing/list-arrow.svg)] before:bg-contain">
+                Position 4 double sided</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- image text section  -->
+    <section class="md:pt-16 pt-4">
+      <div class="md:grid md:grid-cols-12 flex flex-col">
+        <div class="md:col-span-6 flex flex-col">
+          <div class="bg-[url('./assets/images/contract-manufacturing/card-bg-1.jpg')] bg-cover bg-center w-full">
+            <div class="bg-gradient-to-r from-[#827af0] to-[#080270] opacity-80 h-[480px] w-full flex flex-col justify-center">
+              <div class="flex flex-col items-end md:mr-20 mr-8">
+                <h3 class="text-right text-white md:text-[44px] text-[36px] font-bold w-[80%] mb-4">Ready To Discuss
+                  <br />Your Needs?
+                </h3>
+                <h4 class="text-right text-white font-semibold text-[20px] mb-2">Tell us more about your project</h4>
+                <p class="text-right text-white font-normal text-[16px] ">Let us know your goals and timeline, and
+                  together</p>
+                <p class="text-right text-white font-normal text-[16px] ">we’ll build a plan for you </p>
+                <button
+                  class="transform transition-transform duration-300 hover:scale-110 rounded-[30px] bg-white py-3 px-8 font-semibold text-primary mt-10 ">
+                  contact us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-6 flex flex-col">
+          <div class="bg-[url('./assets/images/contract-manufacturing/card-bg-2.jpg')] bg-cover bg-center w-full">
+            <div class="bg-gradient-to-l from-[#6e7072] to-[#121619] opacity-80 h-[480px] w-full flex flex-col justify-center">
+              <div class="flex flex-col items-start md:ml-20 ml-8">
+                <h3 class="text-left text-white md:text-[44px] text-[36px] font-bold w-[70%] mb-4">Private Label <br />
+                  Products</h3>
+                <h4 class="text-left text-white font-semibold text-[20px] mb-2">Over 2,000 turn key products</h4>
+                <p class="text-left text-white font-normal md:text-[18px] text-[16px] ">Spread across multiple market segments ready to
+                </p>
+                <p class="text-left text-white font-normal text-[16px] ">manufacture</p>
+                <button
+                  class="transform transition-transform duration-300 hover:scale-110 rounded-[30px] bg-white py-3 px-8 font-semibold text-gray-700 mt-10 ">
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section  -->
+    <section class="lg:py-[80px] py-[40px]">
+      <div class="container mx-auto lg:max-w-[1100px] max-w-[90%]">
+        <h4 class="text-secondary font-semibold text-[20px] mb-4 text-center">Other Capabilities</h4>
+        <h1 class="text-center text-primary md:text-[50px] text-[36px] font-semibold theme-heading">
+          Additional Services
+        </h1>
+        <p class="text-secondary mb-4 md:text-[18px] text-[16px] font-normal text-center md:w-[80%] w-full mx-auto mt-8">At Adonis, we do our
+          best to address the advanced needs of every customer, and offer additional services to meet your project
+          requirements.</p>
+        <div class="md:grid md:grid-cols-12 gap-4 flex flex-col mt-10">
+          <div class="md:col-span-4 relative">
+            <a href="#" class="relative block overflow-hidden group">
+              <img src="./assets/images/contract-manufacturing/card-img1.png" alt="card-img" class="w-full h-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#000c]"></div>
+              <h3 class="absolute bottom-4 left-0 right-0 text-white font-semibold text-[24px] p-4 transition-transform duration-300 transform group-hover:translate-y-[-10px] text-center">
+                Warehouse Storage
+              </h3>
+            </a>
+          </div>
+          <div class="md:col-span-4 relative">
+            <a href="#" class="relative block overflow-hidden group">
+              <img src="./assets/images/contract-manufacturing/card-img2.png" alt="card-img" class="w-full h-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#000c]"></div>
+              <h3 class="absolute bottom-4 left-0 right-0 text-white font-semibold text-[24px] p-4 transition-transform duration-300 transform group-hover:translate-y-[-10px] text-center">Order Fulfillment</h3>
+            </a>
+          </div>
+          <div class="md:col-span-4 relative">
+            <a href="#" class="relative block overflow-hidden group">
+              <img src="./assets/images/contract-manufacturing/card-img3.png" alt="card-img" class="w-full h-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#000c]"></div>
+              <h3 class="absolute bottom-4 left-0 right-0 text-white font-semibold text-[24px] p-4 transition-transform duration-300 transform group-hover:translate-y-[-10px] text-center">Custom Tooling Fabrication</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- footer -->
+  <footer class="footer-part">
+    <div class="container mx-auto">
+      <div class="grid md:grid-cols-2 sm:grid-cols-1">
+        <div class="footer-link">
+          <div class="logo-part">
+            <img src="./assets/images/Logo.svg" alt="logo" />
+            <p class="mt-2">©2024 Arminak Solutions LLC dba KBL Cosmetics</p>
+          </div>
+          <div class="link-part">
+            <ul>
+              <li>
+                <a href="./index.html" class="hover:underline">Home</a>
+              </li>
+              <li>
+                <a href="./ContractManufacturing.html" class="hover:underline">Contract Manufacturing</a>
+              </li>
+              <li>
+                <a href="./Formulation.html" class="hover:underline">Custom Formulation</a>
+              </li>
+              <li>
+                <a href="./PrivateLabel.html" class="hover:underline">Private Label</a>
+              </li>
+              <li>
+                <a href="./R&D.html" class="hover:underline">Research & Development</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">About Us</a>
+              </li>
+              <li>
+                <a href="./Contact.html" class="hover:underline">Contact</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Terms and Conditions</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Terms & Conditions of Sale</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Terms & Conditions for Suppliers</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-social md:mt-0 mt-10">
+          <div class="social-link-part flex gap-4">
+            <a href="https://www.facebook.com/kblcosmetics" target="_blank"><img src="./assets/images/facebook.svg"
+                alt="icon"></a>
+            <a href="https://twitter.com/kblcosmetics1" target="_blank"><img src="./assets/images/x-box.svg"
+                alt="icon"></a>
+            <a href="https://www.pinterest.com/kblcosmetics" target="_blank"><img src="./assets/images/Pinterest.svg"
+                alt="icon"></a>
+            <a href="https://www.instagram.com/kblcosmeticslab" target="_blank"><img src="./assets/images/Instagram.svg"
+                alt="icon"></a>
+            <a href="https://vimeo.com/kblcosmetics" target="_blank"><img src="./assets/images/vimo.svg" alt="icon"></a>
+          </div>
+          <div class="badge-part">
+            <div class="image-block">
+              <img src="./assets/images/Women-Owned-Badge.svg" alt="badge" />
+            </div>
+            <p class="mt-4 max-w-80">Certifying women-owned businesses is the foundation of WBENC’s mission, a legacy
+              that is carried on for over 20 years.</p>
+            <p class="mt-4 max-w-80">WBENC Certification is nationally recognized, and preferred by more than 1,000
+              Corporate and Government Members.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/Js/tailwind.js"></script>
+  <script src="./assets/Js/index.js"></script>
+</body>
+
+</html>
